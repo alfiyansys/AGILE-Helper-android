@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+	xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+	<fragment
+          android:id="@+id/map_main"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:name="com.google.android.gms.maps.SupportMapFragment"/>
+	<Button
+        android:id="@+id/buttonStartRec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/map_main"
+        android:layout_alignTop="@+id/map_main"
+        android:layout_marginTop="10dp"
+        android:text="@string/mulai" />
+
+	<Button
+	    android:layout_marginTop="10dp"
+	    android:id="@+id/buttonStopRec"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/map_main"
+	    android:layout_toRightOf="@id/buttonStartRec"
+	    android:text="@string/selesai" />
+	
+	<Button
+	    android:layout_marginTop="10dp"
+	    android:id="@+id/buttonClrMapMain"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/map_main"
+	    android:layout_toRightOf="@id/buttonStopRec"
+	    android:text="@string/reset" />
+
+    <TextView
+        android:id="@+id/main_lat"
+        android:layout_width="fill_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/map_main"
+        android:layout_alignTop="@+id/map_main"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/maincari_curloc_latstr" />
+    <TextView
+        android:id="@+id/main_long"
+        android:layout_width="fill_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/map_main"
+        android:layout_below="@+id/main_lat"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:hint="@string/maincari_curloc_longstr" />
+    <TextView
+        android:id="@+id/main_nopol"
+        android:layout_width="fill_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/map_main"
+        android:layout_below="@+id/main_long"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:hint="@string/mainkendaraan_nopoldata" />
+
+    <TextView
+        android:id="@+id/main_jarak"
+        android:layout_width="fill_parent"
+        android:gravity="right"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/map_main"
+        android:layout_below="@+id/main_nopol"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"
+        android:hint="@string/mainkendaraan_jarakditempuhdata"
+        android:textAlignment="textEnd" />
+
+</RelativeLayout>
