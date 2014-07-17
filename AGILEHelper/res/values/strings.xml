@@ -3,5 +3,6 @@
 
     <string name="app_name">AGILE Helper</string>
     <string name="hello_world">Hello world!</string>
+    <string name="ISVO">ISVO-Meter</string>
 
 </resources>
