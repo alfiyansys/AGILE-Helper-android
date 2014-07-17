@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ISVO-Meter</string>
+    <string name="search_button">Cari Bengkel</string>
+    <string name="bengkel_name_text">Nama Bengkel</string>
+    <string name="bengkel_alamat_text">Alamat Bengkel</string>
+    <string name="maincari_curloc">Lokasi saat ini :</string>
+    <string name="maincari_datastr">Data</string>
+    <string name="maincari_curloc_latstr">Lintang</string>
+    <string name="maincari_curloc_longstr">Bujur</string>
+    <string name="maincari_curloc_valstrnull">Mencari lokasi saat ini</string>
+    <string name="maincari_openMap">Buka lokasi pada peta</string>
+    <string name="vehicle_menu">Daftar Kendaraan</string>
+    <string name="mainkendaraan_datastr">Data Kendaraan</string>
+    <string name="mainkendaraan_nopoldata">Nomor Polisi</string>
+    <string name="mainkendaraan_jenisdata">Jenis dan Merk Kendaraan</string>
+    <string name="mainkendaraan_jarakditempuhdata">Jarak ditempuh</string>
+    <string name="mainkendaraan_jarakmaxdata">Jarak maksimum</string>
+    <string name="mainkendaraan_jarakmaxdata_dialog">Jarak maksimum dalam KM</string>
+    <string name="simpan">Simpan</string>
+    <string name="batal">Batal</string>
+    <string name="ubah">Ubah</string>
+    <string name="tambah">Tambah</string>
+    <string name="hapus">Hapus</string>
+    <string name="mulai">Mulai</string>
+    <string name="selesai">Selesai</string>
+    <string name="jarak">Jarak</string>
+    <string name="reset">Reset</string>
+    <string name="mainkendaraan_activate">Aktifkan</string>
+    <string name="mainkendaraan_last_mbengkel">Terakhir ke bengkel</string>
+    <string name="about_activity">Tentang</string>
+    <string name="low_oil_alert_data">Penggunaan oli anda lebih dari 90%</string>
+    <string name="checkin">Datangi bengkel</string>
+    <string name="title_activity_splash">ISVO Meter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="splash_img_desc">Splash logo</string>
+    <string name="title_activity_tutorial">Cara Penggunaan</string>
+
+</resources>

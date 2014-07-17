@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/mainItemMenu1" 
+        android:title="@string/search_button"
+        android:showAsAction="ifRoom|withText"
+        android:icon="@drawable/ic_action_search"></item>
+    <item 
+        android:id="@+id/mainItemMenu2" 
+        android:title="@string/vehicle_menu"
+        android:showAsAction="never"></item>
+    <item 
+        android:id="@+id/mainItemMenu3" 
+        android:title="@string/about_activity"
+        android:showAsAction="never"></item>
+    <item android:id="@+id/mainItemMenu4" android:title="@string/title_activity_tutorial"></item>
+</menu>

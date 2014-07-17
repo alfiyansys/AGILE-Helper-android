@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/datalistmodmenu_tambah" 
+        android:title="@string/tambah"></item>
+    <item 
+        android:id="@+id/datalistmodmenu_ubah" 
+        android:title="@string/ubah"></item>
+    <item 
+        android:id="@+id/datalistmodmenu_hapus" 
+        android:title="@string/hapus"></item>
+    <item 
+        android:id="@+id/datalistmodmenu_batal" 
+        android:title="@string/batal"></item>
+</menu>
